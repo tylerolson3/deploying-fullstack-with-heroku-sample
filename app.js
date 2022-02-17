@@ -13,6 +13,7 @@ app.use(express.static('build')); // serve static files (css & js) from the 'pub
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// yeah ok
 
 app.get('/api/activities', (req, res) => { // route root directory ('/' is this file (app.js))
 
